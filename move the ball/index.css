@@ -1,0 +1,71 @@
+html{
+ overflow: hidden;
+ width: 100%;
+}
+body{
+    background-color: black;
+  }
+#ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: yellow; 
+    box-shadow:3px 0px 12px 1px;
+    /* animation-name:animate;
+    animation-duration: 10s;
+    animation-delay: 2ms; */
+    position: absolute;
+    
+}
+#bar{
+    height: 12px;
+    width: 120px;
+    border: 2px solid black;
+    top: 300px;
+    left: 200px;
+    position: absolute;
+    border-radius: 30px;
+    
+}
+
+#box{
+    height: 500px;
+    width: 925px;
+    border: 1px solid white;
+    margin: 93px 0 0 198px;
+    text-align: center;
+    box-shadow: 18px 9px 11px white;
+}
+#box h1{
+    color:#1f1f1f;
+    margin-top: 21%;
+    font-size: 48px;
+}
+#box h2{
+    color:#1f1f1f;
+    font-size: 36px;
+}
+
+
+@keyframes animate{
+
+    0%{
+        left: 10px;
+       }
+    /* 25%{
+          top: 200px;
+    }
+    50%{
+        top: 300px;
+    }
+    75%{
+        top: 400px;
+    } */
+    100%{
+        left: 100px;
+        
+    }
+}
+
+
+

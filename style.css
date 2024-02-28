@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+#intro{
+    text-align: center;
+    color: white;
+}
+#intro p{
+    font-size: 21px;
+}
+#intro h1{
+    font-size: 48px;
+}
+
+.container{
+    margin: auto;
+    /* border: 1px solid white; */
+    width: fit-content;
+}
+.card{
+    /* border:  1px solid white; */
+    width: fit-content;
+    border-radius: 50px;
+/* box-shadow: 8px 8px 13px white; */
+
+    margin: 17px 36px 12px 47px;
+    display: inline-block;
+    
+}
+.card img { 
+    border-radius: 50px;
+    width: 204px;
+    height: 192px;
+}
+
+.card:hover{
+box-shadow: 8px 8px 13px white;
+}
